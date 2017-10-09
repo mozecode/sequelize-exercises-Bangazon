@@ -1,0 +1,20 @@
+{
+    "tools": [
+      {
+        "name": "Square Shovel",
+        "color": "Blue"
+      },
+      {
+        "name": "Crenellated tower bucket",
+        "color": "Tomato"
+      },
+      {
+        "name": "Stick",
+        "color": "Brown"
+      },
+      {
+        "name": "Scoop",
+        "color": "Pink"
+      }
+    ]
+  }

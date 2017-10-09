@@ -1,0 +1,22 @@
+{
+    "lifeguards": [
+      {
+        "first_name": "Donna",
+        "last_name": "Mills",
+        "beachId":1,
+        "email": "dmills@gmail.com"
+      },
+      {
+        "first_name": "Rick",
+        "last_name": "Sanchez",
+        "beachId":2,
+        "email": "PickleRick@gmail.com"
+      },
+      {
+        "first_name": "Matt",
+        "last_name": "Baker",
+        "beachId":3,
+        "email": "Bakem@gmail.com"
+      }
+    ]
+  }

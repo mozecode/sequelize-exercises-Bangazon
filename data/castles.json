@@ -1,0 +1,24 @@
+{
+    "castles": [
+      {
+        "name": "Hogwarts",
+        "description": "Draco Dormiens Nunquam Titillandus",
+        "beachId": 1
+      },
+      {
+        "name": "The Tower",
+        "description": "You can check out but you can never leave",
+        "beachId": 2
+      },
+      {
+        "name": "Castel San'Angelo",
+        "description": "Nobody's gonna destroy this.... oh, wait.",
+        "beachId": 3
+      },
+      {
+        "name": "Dracula's Castle",
+        "description": "Bite me.",
+        "beachId": 1
+      }
+    ]
+  }

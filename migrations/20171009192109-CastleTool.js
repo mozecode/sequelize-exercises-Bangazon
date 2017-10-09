@@ -1,20 +1,17 @@
 'use strict';
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('Beaches', {
+    return queryInterface.createTable('CastleTools', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      name: {
-        type: Sequelize.STRING
+      castleId: {
+        type: Sequelize.INTEGER
       },
-      location: {
-        type: Sequelize.STRING
-      },
-      sand_rating: {
+      toolId: {
         type: Sequelize.INTEGER
       },
       createdAt: {
@@ -28,6 +25,6 @@ module.exports = {
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('Beaches');
+    return queryInterface.dropTable('CastleTools');
   }
 };

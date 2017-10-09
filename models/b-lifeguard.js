@@ -3,7 +3,15 @@ module.exports=function (sequelize, DataTypes) {
   var Lifeguard = sequelize.define('Lifeguard', {
     first_name: DataTypes.STRING,
     last_name: DataTypes.STRING,
-    beachId: DataTypes.INTEGER
+    beachId: DataTypes.INTEGER,
+    createdAt: null,
+    updatedAt: null,
+    email: {
+      type: DataTypes.STRING,
+      validate: {
+        isEmail: true
+      }
+    }
   });
 
   Lifeguard.associate= (models)=> {

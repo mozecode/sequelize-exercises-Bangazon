@@ -8,7 +8,9 @@ module.exports = function(sequelize, DataTypes) {
       }
     },
     location: DataTypes.STRING,
-    sand_rating: DataTypes.INTEGER
+    sand_rating: DataTypes.INTEGER,
+    createdAt: null,
+    updatedAt: null
   });
 
   Beach.associate = (models) => {

@@ -1,0 +1,19 @@
+{
+    "beaches": [
+      {
+        "name": "Waikiki Beach",
+        "location": "Hawaii",
+        "sand_rating": 10
+      },
+      {
+        "name": "Pensacola Beach",
+        "location": "Florida",
+        "sand_rating": 6
+      },
+      {
+        "name": "Edisto Beach",
+        "location": "South Carolina",
+        "sand_rating": 8
+      }
+    ]
+  }
